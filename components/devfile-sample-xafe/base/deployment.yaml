@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-xafe
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0068-tenant/ci1t-830-0068-app/devfile-sample-xafe@sha256:23da60617236882aa812fa673ad6c3d1ca780a19fa860fdc99c80af3e722d94a
         name: my-nodejs
         ports:
         - containerPort: 3001
