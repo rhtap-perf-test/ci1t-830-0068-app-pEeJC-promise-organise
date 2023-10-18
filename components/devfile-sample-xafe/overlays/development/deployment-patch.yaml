@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-xafe
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0068-tenant/ci1t-830-0068-app/devfile-sample-xafe@sha256:23da60617236882aa812fa673ad6c3d1ca780a19fa860fdc99c80af3e722d94a
+        name: my-nodejs
+        resources: {}
+status: {}
